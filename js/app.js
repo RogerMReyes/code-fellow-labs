@@ -15,28 +15,31 @@ let yesResponseArray = ['You\'re right! I am currently playing Elden Ring!',
   'Right again I love watching movies especially in movie theaters',
   'Nope buying theater food isn\'t for me at the prices they\'re pushing.',
   'Yes! They\'ve got a little bit of everything on there.',
-  `Yea it's probably not the healthiest thing for my body but sometimes it just happens. Well that's all the questions I have ${userName} talk to you again soon!`];
+  `Yea it's probably not the healthiest thing for my body but sometimes it just happens. Am I right ${userName}.`];
 
 let noResponseArray = ['Nope, I\'ve been gaming since I could first hold a gameboy',
   'Wrong, I love movies!',
   'You\'re right! I just try to bring my own snacks but don\'t tell anyone.',
   'Sorry Netlix is my favorite!',
-  `You underestimate my power ${userName} series are no match for me! That's all my questions for now ${userName}! Talk to you again soon!`];
+  `You underestimate my power ${userName} series are no match for me!`];
 
 for (let i = 0; i < fiveQuestionArray.length; i++) {
   fiveAnswerArray[i] = prompt(fiveQuestionArray[i]).toLowerCase();
   if (fiveAnswerArray[i] === yesOrNoArray[1] || fiveAnswerArray[i] === yesOrNoArray[2]) {
     alert(yesResponseArray[i]);
-    if(i !== 3){
+    if(i !== 2){
       totalCorrect++;
+      console.log(totalCorrect);
     }
   } else {
     alert(noResponseArray[i]);
-    if(i === 3){
+    if(i === 2){
       totalCorrect++;
+      console.log(totalCorrect);
     }
   }
 }
+console.log(totalCorrect);
 
 let answerSix = Math.floor(Math.random() * 10);
 let maxRetry = 3;
@@ -58,6 +61,9 @@ if (userGuessSix === answerSix) {
 } else {
   alert(`You're out of attempts ${userName} and still haven't gotten the right answer. I'm holding up 7 fingers!`);
 }
+
+console.log(totalCorrect);
+
 
 let answerSevenArr = ['bananas', 'grapes', 'pears', 'mangoes'];
 maxRetry = 6;
@@ -84,6 +90,9 @@ if (isGuessCorrect) {
 }
 
 alert(`That was fun ${userName}. Out of the 7 questions you got ${totalCorrect} right!`);
+
+console.log(totalCorrect);
+
 
 // Old way of asking the first five Questions
 // let answerOne = prompt(`Hey ${userName}, Question time do you think I like video games?`).toLowerCase();
