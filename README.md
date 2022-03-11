@@ -38,3 +38,15 @@ N/A for this lab
 ### Reflections and Comments
 
 I wasn't able to do the paired programming due to scheduling conflicts however I was still able to observe Dana act as the Driver with our teacher Audrey acting as the Navigator. I am familiar with functions and had no issues with wrapping our current set of questions into their own code blocks.
+
+## Lab 05
+
+We are finally deploying to GitHub pages. I cleaned up my JS file to take out all the unnecessary comments and console logs
+
+### Links and Resources
+
+N/A for this lab
+
+### Reflections and Comments
+
+We were finally able to deply the page and everything with my jS file is working properly. I was able to accomplish a lot of the stretch goals this week with my about me page and the hands on practice feels like the best way to learn for me. 
