@@ -26,3 +26,15 @@ I had some issues with re-introducing the bullet points for an un-ordered list a
 ### Reflections and Comments
 
 This was a very interesting lab where I got to test the limits of loops and arrays. The stretch goal of storing the first five questions into an array and using a loop to simulate the flow was a great exercise and helped me understand JavaScript logical processes better.
+
+## Lab 04
+
+This lab was to get a little familiar with git hub pull requests and pair programming. For the actual code we are getting into functions and have wrapped all of our questions in our script into their own functions.
+
+### Links and Resources
+
+N/A for this lab
+
+### Reflections and Comments
+
+I wasn't able to do the paired programming due to scheduling conflicts however I was still able to observe Dana act as the Driver with our teacher Audrey acting as the Navigator. I am familiar with functions and had no issues with wrapping our current set of questions into their own code blocks.
